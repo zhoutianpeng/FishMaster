@@ -45,8 +45,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\AudioManager.cs" />
+     <Compile Include="Assets\scripts\BulletAttr.cs" />
+     <Compile Include="Assets\scripts\CameManager.cs" />
+     <Compile Include="Assets\scripts\Effect\Ef_AutoMove.cs" />
+     <Compile Include="Assets\scripts\Effect\Ef_AutoRotate.cs" />
+     <Compile Include="Assets\scripts\Effect\Ef_DestorySelf.cs" />
+     <Compile Include="Assets\scripts\Effect\Ef_HideSelf.cs" />
+     <Compile Include="Assets\scripts\Effect\Ef_MoveTo.cs" />
+     <Compile Include="Assets\scripts\Effect\Ef_PlayEffect.cs" />
+     <Compile Include="Assets\scripts\Effect\Ef_SeaWave.cs" />
      <Compile Include="Assets\scripts\Effect\Ef_WaterWave.cs" />
+     <Compile Include="Assets\scripts\FishAttr.cs" />
+     <Compile Include="Assets\scripts\FishMaker.cs" />
+     <Compile Include="Assets\scripts\GoldCollect.cs" />
      <Compile Include="Assets\scripts\GunFollow.cs" />
+     <Compile Include="Assets\scripts\MainScene.cs" />
+     <Compile Include="Assets\scripts\StartScene.cs" />
+     <Compile Include="Assets\scripts\WebAttr.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/zhou/Workspace/FishMaster/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
